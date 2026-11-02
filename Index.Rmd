@@ -1,0 +1,25 @@
+---
+title: "Anny's Website!"
+author: "Yiman Rui"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Welcome!
+
+Hellooo! I'm **Yiman Rui** or you can call me Anny, a master's student in Biostatistics at Columbia University Mailman School of Public Health, following the Statistical Genomics track. I earned my B.S. in Statistics from the University of Michigan.
+
+My academic and research interests focus on applying statistical methods and computational tools to biomedical research, particularly cancer genomics, clinical research, and health data analysis.
+
+## A litte bit about me
+
+My previous research experiences have involved genomic data analysis, tumor phylogeny reconstruction, and clinical research. Through these projects, I have gained experience working with biological and clinical datasets, developing computational workflows, and interpreting statistical results. I am especially interested in how statistical methods can help answer meaningful clinical questions and improve our understanding of disease.
+
+## Explore My Website
+
+You can learn more about my background on my [Education and Experience](about.html) page.
+
+This website was created using R Markdown as part of [P8105: Data Science I](https://p8105.com/) at Columbia University.
