@@ -1,0 +1,109 @@
+---
+title: "New York Weather Dashboard"
+author: "Yiman Rui"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+library(flexdashboard)
+
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+```
+
+
+```{r}
+data("ny_noaa")
+
+central_park_weather =
+  ny_noaa %>%
+  filter(id == "USW00094728") %>%
+  mutate(
+    date = as.Date(date),
+    tmax = as.numeric(tmax) / 10,
+    tmin = as.numeric(tmin) / 10,
+    year = as.integer(format(date, "%Y")),
+    month = factor(
+      month.abb[as.integer(format(date, "%m"))],
+      levels = month.abb
+    )
+  ) %>%
+  filter(
+    !is.na(date),
+    !is.na(tmax),
+    !is.na(tmin)
+  )
+
+set.seed(8105)
+
+scatter_weather =
+  central_park_weather %>%
+  slice_sample(n = 1500)
+
+yearly_weather =
+  central_park_weather %>%
+  group_by(year) %>%
+  summarize(
+    mean_tmax = mean(tmax),
+    .groups = "drop"
+  )
+```
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Scatterplot
+
+```{r}
+scatter_weather |> 
+  plot_ly(
+    x = ~tmin, y = ~tmax,
+    type = "scatter", mode = "markers",
+    alpha = 0.5
+  ) |> 
+  layout(
+    xaxis = list(title = "Minimum Temperature (°C)"),
+    yaxis = list(title = "Maximum Temperature (°C)")
+  )
+```
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Line plot
+```{r}
+yearly_weather %>%
+  plot_ly(
+    x = ~year, y = ~mean_tmax,
+    type = "scatter", mode = "lines"
+  ) %>%
+  layout(
+    xaxis = list(title = "Year"),
+    yaxis = list(title = "Average Maximum Temperature (°C)")
+  )
+```
+
+
+
+### Boxplot
+```{r}
+central_park_weather %>%
+  plot_ly(
+    x = ~month, y = ~tmax,
+    type = "box", color = ~month,
+    colors = "viridis", showlegend = FALSE
+  ) %>%
+  layout(
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Maximum Temperature (°C)")
+  )
+```
+
+
+

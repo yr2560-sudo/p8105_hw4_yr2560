@@ -9,6 +9,8 @@ navbar:
       href: index.html
     - text: "Resume"
       href: about.html
+    - text: "Dashboard"
+      href: dashboard.html
   right:
     - text: "GitHub"
       icon: fa-github
