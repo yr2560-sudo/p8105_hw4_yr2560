@@ -1,0 +1,60 @@
+---
+title: "About Me"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Education
+
+### Columbia University
+**Mailman School of Public Health**
+
+Master of Science in Biostatistics
+
+Track: Statistical Genomics
+
+### University of Michigan, Ann Arbor
+
+Bachelor of Science in Statistics
+
+## Research and Professional Experience
+
+### Vanderbilt University
+**Research Intern | Computational Biology Laboratory**
+
+- Compared computational methods for tumor phylogeny reconstruction using single-cell DNA sequencing data.
+- Processed single-nucleotide variant (SNV) and copy-number alteration (CNA) data using Python.
+- Evaluated computational performance and the accuracy of inferred tumor phylogenies relative to benchmark results.
+
+### STEXO Biotechnology
+**Clinical Research Intern**
+
+- Contributed to systematic reviews and meta-analyses evaluating stem-cell-based therapies for liver disease.
+- Assisted with literature screening, data extraction, and methodological quality assessments.
+- Analyzed longitudinal clinical outcomes and contributed to research reports and clinical study documentation.
+
+### University of Rochester
+**Research Assistant | Radiation Oncology**
+
+- Investigated relationships among genomic variation, gene expression, and patient survival.
+- Used R to support genomic data processing and statistical mediation analysis.
+- Assisted in interpreting statistical findings and documenting research results.
+
+## Technical Skills
+
+**Programming:** R, Python, C++
+
+**Data Analysis:** Data cleaning, statistical modeling, exploratory data analysis, data visualization
+
+**Statistical Methods:** Regression analysis, survival analysis, mediation analysis, meta-analysis
+
+**Tools:** R Markdown, ggplot2, tidyverse, pandas, SciPy, Git, GitHub
+
+## Additional Information
+
+**Languages:** English and Mandarin Chinese
+
+Return to the [homepage](index.html).

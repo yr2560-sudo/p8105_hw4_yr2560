@@ -8,15 +8,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Welcome!
+## Helloo!
 
-Hellooo! I'm **Yiman Rui** or you can call me Anny, a master's student in Biostatistics at Columbia University Mailman School of Public Health, following the Statistical Genomics track. I earned my B.S. in Statistics from the University of Michigan.
+![](mang.gif)
 
-My academic and research interests focus on applying statistical methods and computational tools to biomedical research, particularly cancer genomics, clinical research, and health data analysis.
+Welcome to my personal website! I'm **Yiman Rui** or Anny, a master's student in Biostatistics at Columbia University Mailman School of Public Health, following the Statistical Genomics track. I earned my B.S. in Statistics from the University of Michigan.
 
 ## A litte bit about me
 
 My previous research experiences have involved genomic data analysis, tumor phylogeny reconstruction, and clinical research. Through these projects, I have gained experience working with biological and clinical datasets, developing computational workflows, and interpreting statistical results. I am especially interested in how statistical methods can help answer meaningful clinical questions and improve our understanding of disease.
+
+Outside of class, one of my favorite things to do is scuba diving and freediving. I love exploring the underwater world and discovering all the amazing marine life. It's such a different experience from everyday life, and I always look forward to my next dive! 
+![One of my favorite underwater adventures!](freediving.jpg){width=400px}
 
 ## Explore My Website
 
