@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Education
+## Education
 
 ### Columbia University - Mailman School of Public Health
 
