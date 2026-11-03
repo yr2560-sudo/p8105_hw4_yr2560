@@ -1,0 +1,23 @@
+
+name: "Yiman Rui"
+output_dir: "."
+
+navbar:
+  title: "Yiman Rui"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: about.html
+  right:
+    - text: "GitHub"
+      icon: fa-github
+      href: "https://github.com/yr2560-sudo"
+    - text: "Email"
+      icon: fa-envelope
+      href: "mailto:yr2560@cumc.columbia.edu"
+
+
+output:
+  html_document:
+    theme: flatly
