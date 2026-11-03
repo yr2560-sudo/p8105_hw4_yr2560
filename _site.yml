@@ -16,8 +16,12 @@ navbar:
     - text: "Email"
       icon: fa-envelope
       href: "mailto:yr2560@cumc.columbia.edu"
+    - text: "Linkedin"
+      icon: fa-linedin
+      href: "https://www.linkedin.com/in/yiman-rui-2269082a7"
 
 
 output:
   html_document:
     theme: flatly
+    css: style.css

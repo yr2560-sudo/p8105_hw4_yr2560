@@ -9,12 +9,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Education
 
-### Columbia University
-**Mailman School of Public Health**
+### Columbia University - Mailman School of Public Health
 
-Master of Science in Biostatistics
-
-Track: Statistical Genomics
+Master of Science in Biostatistics, Statistical Genomics
 
 ### University of Michigan, Ann Arbor
 

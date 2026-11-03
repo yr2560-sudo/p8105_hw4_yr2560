@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Welcome to my personal website! I'm **Yiman Rui** or Anny, a master's student in Biostatistics at Columbia University Mailman School of Public Health, following the Statistical Genomics track. I earned my B.S. in Statistics from the University of Michigan.
 
-## A litte bit about me
+## A little bit about me
 
 My previous research experiences have involved genomic data analysis, tumor phylogeny reconstruction, and clinical research. Through these projects, I have gained experience working with biological and clinical datasets, developing computational workflows, and interpreting statistical results. I am especially interested in how statistical methods can help answer meaningful clinical questions and improve our understanding of disease.
 
