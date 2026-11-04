@@ -12,14 +12,11 @@ navbar:
     - text: "Dashboard"
       href: dashboard.html
   right:
-    - text: "GitHub"
-      icon: fa-github
+    - icon: fa-github
       href: "https://github.com/yr2560-sudo"
-    - text: "Email"
-      icon: fa-envelope
+    - icon: fa-envelope
       href: "mailto:yr2560@cumc.columbia.edu"
-    - text: "Linkedin"
-      icon: fa-linedin
+    - icon: fa-linkedin
       href: "https://www.linkedin.com/in/yiman-rui-2269082a7"
 
 

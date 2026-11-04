@@ -1,10 +1,14 @@
 ---
 title: "New York Weather Dashboard"
-author: "Yiman Rui"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    navbar:
+      - title: "Home"
+        href: index.html
+        align: left
+    theme: flatly
 ---
 
 ```{r setup, include=FALSE}

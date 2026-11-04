@@ -10,40 +10,40 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Education
+### Education
 
-### Columbia University - Mailman School of Public Health
+**Columbia University - Mailman School of Public Health**
 
 Master of Science in Biostatistics, Statistical Genomics
 
-### University of Michigan, Ann Arbor
+**University of Michigan, Ann Arbor**
 
 Bachelor of Science in Statistics
 
-## Research and Professional Experience
+### Professional Experiences
 
-### Vanderbilt University
+#### Vanderbilt University
 **Research Intern | Computational Biology Laboratory**
 
 - Compared computational methods for tumor phylogeny reconstruction using single-cell DNA sequencing data.
 - Processed single-nucleotide variant (SNV) and copy-number alteration (CNA) data using Python.
 - Evaluated computational performance and the accuracy of inferred tumor phylogenies relative to benchmark results.
 
-### STEXO Biotechnology
+#### STEXO Biotechnology
 **Clinical Research Intern**
 
 - Contributed to systematic reviews and meta-analyses evaluating stem-cell-based therapies for liver disease.
 - Assisted with literature screening, data extraction, and methodological quality assessments.
 - Analyzed longitudinal clinical outcomes and contributed to research reports and clinical study documentation.
 
-### University of Rochester
+#### University of Rochester
 **Research Assistant | Radiation Oncology**
 
 - Investigated relationships among genomic variation, gene expression, and patient survival.
 - Used R to support genomic data processing and statistical mediation analysis.
 - Assisted in interpreting statistical findings and documenting research results.
 
-## Technical Skills
+### Technical Skills
 
 **Programming:** R, Python, C++
 
@@ -53,7 +53,7 @@ Bachelor of Science in Statistics
 
 **Tools:** R Markdown, ggplot2, tidyverse, pandas, SciPy, Git, GitHub
 
-## Additional Information
+### Additional Information
 
 **Languages:** English and Mandarin Chinese
 
